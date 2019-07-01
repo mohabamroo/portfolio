@@ -13,6 +13,7 @@ import { AppRoutingModule } from './app.routing';
 import { RouterModule } from '@angular/router';
 
 import { ParticlesModule } from 'angular-particle';
+import { AboutComponent } from './pages/about/about.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ParticlesModule } from 'angular-particle';
     LandingComponent,
     ProjectsComponent,
     ProjectsListComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    AboutComponent
   ],
   imports: [BrowserModule, RouterModule, AppRoutingModule, ParticlesModule],
   providers: [],

@@ -12,7 +12,6 @@ export class HeaderComponent implements OnInit, OnDestroy {
   constructor(private generalService: GeneralService) {
     this.transparentFlagSubscriber = this.generalService.transparentHeaderFlag.subscribe(
       flag => {
-        console.log('TCL: HeaderComponent -> constructor -> flag', flag);
         this.transparentNavFlag = flag;
       }
     );

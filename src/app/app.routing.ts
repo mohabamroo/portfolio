@@ -5,6 +5,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { LandingComponent } from './pages/landing/landing.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
+import { AboutComponent } from './pages/about/about.component';
 
 const routes: Routes = [
   {
@@ -17,6 +18,12 @@ const routes: Routes = [
     path: 'projects',
     component: ProjectsComponent,
     data: { title: 'Projects', transparentHeader: false }
+  },
+
+  {
+    path: 'about',
+    component: AboutComponent,
+    data: { title: 'About Me', transparentHeader: false }
   },
 
   {
