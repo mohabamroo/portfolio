@@ -1,0 +1,17 @@
+#main-header {
+  background-color: #1a1f59;
+  height: 100vh;
+  padding-top: 100px;
+  margin-top: -56px;
+  .section-background {
+    opacity: 0.7;
+    height: 100%;
+    background-image: url('../../../assets/images/dev-illustration.jpg');
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+  .content {
+    color: white;
+  }
+}

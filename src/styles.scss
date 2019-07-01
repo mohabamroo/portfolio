@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+
+.transparent {
+  background-color: transparent !important;
+}
+
+.parallax {
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
